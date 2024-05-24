@@ -1,0 +1,106 @@
+﻿@model IEnumerable<FoodModel>
+@*Generated from Custom Template.*@
+@*Model namespace using directive should be added to _ViewImports.cshtml.*@
+
+@{
+    ViewData["Title"] = "Foods";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["Message"] is not null)
+{
+    <p class="bg-info text-black">@TempData["Message"]</p>
+}
+
+@if (User.IsInRole("user"))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+
+<table id="datatable" class="display" style="width:100%;">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDateOutput)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SalesPriceOutput)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChefOutput)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderDateOutput)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SalesPriceOutput)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ChefOutput)
+                </td>
+                <td>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a asp-action="Add" asp-controller="Recommendations" asp-route-gameId="@item.Id">Add to Recommendations</a>
+                        @:&nbsp;|&nbsp;
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                        @if (User.IsInRole("user"))
+                        {
+                            @:&nbsp;|&nbsp;
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                            @:&nbsp;|&nbsp;
+                            <a href="#" onclick="deleteGame(@item.Id);">Delete</a>
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <link href="~/lib/datatables/css/jquery.datatables.min.css" rel="stylesheet" />
+    <script src="~/lib/datatables/js/jquery.datatables.min.js"></script>
+
+    <link href="~/lib/alertifyjs/css/alertify.min.css" rel="stylesheet" />
+    <script src="~/lib/alertifyjs/alertify.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#datatable").DataTable();
+        });
+
+        function deleteGame(id) { // event for the delete link
+            alertify.confirm(
+                "Warning!",
+                "Are you sure you want to delete this food?",
+                function () { // Yes
+                    window.location.href = "/Foods/Delete/" + id;
+
+                    // alertify.success("Delete successful.");
+                    // we won't be able to see this because of redirection
+                },
+                function () { // No
+                    // alertify.error("Delete canceled.");
+                }
+            ).set("labels", { ok: "Yes", cancel: "No" });
+        }
+    </script>
+}
+

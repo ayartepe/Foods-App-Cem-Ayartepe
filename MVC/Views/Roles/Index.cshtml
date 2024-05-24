@@ -1,0 +1,75 @@
+﻿@* Way 1: *@
+@* @using Business.Models *@
+
+@model IEnumerable<RoleModel>
+@*Generated from Custom Template.*@
+@*Model namespace using directive should be added to _ViewImports.cshtml.*@
+
+@{
+    string title = "Roles";
+    ViewData["Title"] = title;
+}
+
+<h1>@title</h1>
+
+@if (TempData["Message"] is not null) @* if (TempData["Message"] != null) *@
+{
+    <p class="bg-info text-black">@TempData["Message"]</p>
+}
+
+<p>
+    @* Way 1: HTML *@
+    @* <a href="/Roles/Create">Create New</a> *@
+    @* Way 2: Tag Helper *@
+    @* <a asp-action="Create">Create New</a> *@
+    @* Way 3: Tag Helper *@
+    @* <a asp-action="Create" asp-asp-controller="Roles">Create New</a> *@
+    @* Way 4: HTML Helper *@
+    @* @Html.ActionLink("Create New", "Create", "Roles") *@
+    @* Way 5: HTML Helper *@
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @* Way 1: *@
+                @* Name *@
+                @* Way 2: HTML Helper *@
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => m.UserCount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @* Way 1: *@
+                    @* @item.Name *@
+                    @* Way 2: HTML Helper *@
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.UserCount)
+                </td>
+                <td>
+                    @* Way 1: Tag Helper *@
+                    @* <a asp-action="Details" asp-route-id="@item.Id">Details</a>&nbsp;|&nbsp; *@
+                    @* Way 2: HTML Helper *@
+                    @Html.ActionLink("Details", "Details", new { id = item.Id })
+                    &nbsp;|&nbsp;
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>&nbsp;|&nbsp;
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

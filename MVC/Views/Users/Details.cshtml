@@ -1,0 +1,69 @@
+﻿@model UserModel
+@*Generated from Custom Template.*@
+@*Model namespace using directive should be added to _ViewImports.cshtml.*@
+
+@{
+    ViewData["Title"] = "User Details";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["Message"] is not null)
+{
+    <p class="bg-warning text-black">@TempData["Message"]</p>
+}
+
+<div>
+    <h4>User</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+        <dd class="col-10">
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd class="col-10">
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.IsActiveOutput)
+        </dt>
+        <dd class="col-10">
+            @Html.DisplayFor(model => model.IsActiveOutput)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class="col-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.RoleOutput.Name)
+        </dt>
+        <dd class="col-10">
+            @Html.DisplayFor(model => model.RoleOutput.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    @if (User.IsInRole("admin"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>@:&nbsp;|&nbsp;
+    }
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+

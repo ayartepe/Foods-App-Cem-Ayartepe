@@ -1,0 +1,68 @@
+﻿@model FoodModel
+@*Generated from Custom Template.*@
+@*Model namespace using directive should be added to _ViewImports.cshtml.*@
+
+@{
+    ViewData["Title"] = "Food Details";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h4>Game</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.OrderDateOutput)
+        </dt>
+        <dd class="col-10">
+            @Html.DisplayFor(model => model.OrderDateOutput)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.SalesPriceOutput)
+        </dt>
+        <dd class="col-10">
+            @Html.DisplayFor(model => model.SalesPriceOutput)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.ChefOutput)
+        </dt>
+        <dd class="col-10">
+            @Html.DisplayFor(model => model.ChefOutput)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.Users)
+        </dt>
+        <dd class="col-10">
+            @foreach (var user in Model.Users)
+            {
+                @(user.UserName + " (" + user.Status + ")")
+                <br>
+            }
+        </dd>
+    </dl>
+</div>
+<div>
+    @if (User.IsInRole("user"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>@:&nbsp;|&nbsp;
+    }
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+

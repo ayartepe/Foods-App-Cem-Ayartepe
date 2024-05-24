@@ -1,0 +1,199 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVC
+build_property.RootNamespace = MVC
+build_property.ProjectDir = C:\Users\21902921\Source\Repos\FoodsAPP\MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\21902921\Source\Repos\FoodsAPP\MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Areas/Account/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjb3VudFxWaWV3c1xIb21lXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Areas/Account/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjb3VudFxWaWV3c1xIb21lXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Areas/Account/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjb3VudFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Areas/Account/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjb3VudFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ControllerGenerator/ApiControllerWithActions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpQ29udHJvbGxlcldpdGhBY3Rpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ControllerGenerator/ApiControllerWithContext.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpQ29udHJvbGxlcldpdGhDb250ZXh0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ControllerGenerator/ApiEmptyController.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpRW1wdHlDb250cm9sbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ControllerGenerator/ControllerWithActions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQ29udHJvbGxlcldpdGhBY3Rpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ControllerGenerator/EmptyController.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcRW1wdHlDb250cm9sbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ControllerGenerator/MvcControllerWithContext.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcTXZjQ29udHJvbGxlcldpdGhDb250ZXh0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ViewGenerator/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ViewGenerator/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ViewGenerator/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ViewGenerator/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ViewGenerator/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRW1wdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ViewGenerator/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Templates/ViewGenerator/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Favorites/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Games/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Games/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Games/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Games/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Games/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Publishers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Publishers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Publishers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Publishers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Publishers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Roles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Roles/RoleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcUm9sZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/21902921/Source/Repos/FoodsAPP/MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q0a04yuu0e

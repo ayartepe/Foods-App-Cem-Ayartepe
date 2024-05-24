@@ -1,0 +1,52 @@
+﻿@model RoleModel
+@*Generated from Custom Template.*@
+@*Model namespace using directive should be added to _ViewImports.cshtml.*@
+
+@{
+    ViewData["Title"] = "Create Role";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@* Carrying data to the view way 1 or 2: *@
+@* @if (ViewBag.CreateMessage is not null) // if (ViewData["CreateMessage"] is not null)
+{
+    <p class="text-danger">@ViewBag.CreateMessage</p>
+} *@
+
+<h4>Role</h4>
+<hr />
+<div class="row">
+    <div class="col-12">
+        @* Way 1: *@
+        @* <form asp-action="Create" method="post"> *@
+        @* Way 2: *@
+        <form asp-action="Create">@* default method: post *@
+		@Html.AntiForgeryToken()
+
+            @* Carrying data to the view way 3: *@
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="row mb-3">
+                <label asp-for="Name" class="col-2 col-form-label"></label>@* Role Name *@
+				<div class="col-5">
+					<input asp-for="Name" class="form-control" />
+					<span asp-validation-for="Name" class="text-danger"></span>
+				</div>
+            </div>
+            <div class="row mb-3">
+				<div class="offset-2 col-5">
+					<input type="submit" value="Save" class="btn btn-primary" />
+					&nbsp;&nbsp;
+                    <button type="reset" class="btn btn-outline-primary">Reset</button>
+					&nbsp;&nbsp;
+					<a asp-action="Index">Back to List</a>
+				</div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+

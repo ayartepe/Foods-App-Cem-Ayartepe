@@ -1,0 +1,78 @@
+﻿@model IEnumerable<UserModel>
+@*Generated from Custom Template.*@
+@*Model namespace using directive should be added to _ViewImports.cshtml.*@
+
+@{
+    ViewData["Title"] = "Users";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["Message"] is not null)
+{
+    <p class="bg-warning text-black">@TempData["Message"]</p>
+}
+
+@if (User.IsInRole("admin"))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+
+<p class="bg-info text-black">@Model.Count() user(s) found.</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActiveOutput)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RoleOutput.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsActiveOutput)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RoleOutput.Name)
+                </td>
+                <td>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                        @if (User.IsInRole("admin"))
+                        {
+                            <text>&nbsp;|&nbsp;</text>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                            @:&nbsp;|&nbsp;
+                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
